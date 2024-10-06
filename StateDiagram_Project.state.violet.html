@@ -1,0 +1,272 @@
+<HTML>
+<HEAD>
+<META name="description"
+	content="Violet UML Editor cross format document" />
+<META name="keywords" content="Violet, UML" />
+<META charset="UTF-8" />
+<SCRIPT type="text/javascript">
+	function switchVisibility() {
+		var obj = document.getElementById("content");
+		obj.style.display = (obj.style.display == "block") ? "none" : "block";
+	}
+</SCRIPT>
+</HEAD>
+<BODY>
+	This file was generated with Violet UML Editor 3.0.0.
+	&nbsp;&nbsp;(&nbsp;<A href=# onclick="switchVisibility()">View Source</A>&nbsp;/&nbsp;<A href="http://sourceforge.net/projects/violet/files/violetumleditor/" target="_blank">Download Violet</A>&nbsp;)
+	<BR />
+	<BR />
+	<SCRIPT id="content" type="text/xml"><![CDATA[<StateDiagramGraph id="1">
+  <nodes id="2">
+    <CircularInitialStateNode id="3">
+      <children id="4"/>
+      <location class="Point" id="5">420.0,40.0</location>
+      <id id="6" value="a8616c6b-342b-46b1-a5c2-6a0e97acb01e"/>
+      <revision>1</revision>
+      <backgroundColor id="7">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor id="8">
+        <red>91</red>
+        <green>91</green>
+        <blue>91</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <textColor id="9">
+        <red>51</red>
+        <green>51</green>
+        <blue>51</blue>
+        <alpha>255</alpha>
+      </textColor>
+      <preferredSize class="Rectangle" id="10">0.0,0.0,0.0,0.0</preferredSize>
+    </CircularInitialStateNode>
+    <StateNode id="11">
+      <children id="12"/>
+      <location class="Point" id="13">390.0,130.0</location>
+      <id id="14" value="4fcdee86-527e-4d36-8a3d-1f0269127a7e"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor id="15">
+        <red>191</red>
+        <green>191</green>
+        <blue>191</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <textColor reference="9"/>
+      <preferredSize class="Rectangle" id="16">0.0,0.0,0.0,0.0</preferredSize>
+      <name id="17" justification="1" size="4" underlined="false">
+        <text>State 1</text>
+      </name>
+    </StateNode>
+    <StateNode id="18">
+      <children id="19"/>
+      <location class="Point" id="20">390.0,260.0</location>
+      <id id="21" value="72dd1dd9-7bc9-43ef-8ca3-b98238ab1e83"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="15"/>
+      <textColor reference="9"/>
+      <preferredSize class="Rectangle" reference="16"/>
+      <name id="22" justification="1" size="4" underlined="false">
+        <text>State2</text>
+      </name>
+    </StateNode>
+    <StateNode id="23">
+      <children id="24"/>
+      <location class="Point" id="25">390.0,390.0</location>
+      <id id="26" value="34d2899f-ea33-4824-84b1-cb1b5e401983"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="15"/>
+      <textColor reference="9"/>
+      <preferredSize class="Rectangle" reference="16"/>
+      <name id="27" justification="1" size="4" underlined="false">
+        <text>State3</text>
+      </name>
+    </StateNode>
+    <StateNode id="28">
+      <children id="29"/>
+      <location class="Point" id="30">390.0,510.0</location>
+      <id id="31" value="e72e828f-3d6e-421f-a10b-be7e97ee5b5c"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="15"/>
+      <textColor reference="9"/>
+      <preferredSize class="Rectangle" reference="16"/>
+      <name id="32" justification="1" size="4" underlined="false">
+        <text>State4</text>
+      </name>
+    </StateNode>
+    <CircularFinalStateNode id="33">
+      <children id="34"/>
+      <location class="Point" id="35">410.0,660.0</location>
+      <id id="36" value="0de4097e-7f42-4dbd-a531-805ff3128361"/>
+      <revision>1</revision>
+      <backgroundColor id="37">
+        <red>240</red>
+        <green>240</green>
+        <blue>240</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor reference="8"/>
+      <textColor reference="9"/>
+      <preferredSize class="Rectangle" id="38">0.0,0.0,0.0,0.0</preferredSize>
+    </CircularFinalStateNode>
+  </nodes>
+  <edges id="39">
+    <StateTransitionEdge id="40">
+      <start class="CircularInitialStateNode" reference="3"/>
+      <end class="StateNode" reference="11"/>
+      <startLocation class="Point" id="41">10.0,10.0</startLocation>
+      <endLocation class="Point" id="42">40.0,10.0</endLocation>
+      <transitionPoints id="43"/>
+      <id id="44" value="c0f17090-11cb-4bc6-aa66-ef3546dec524"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText></labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="45">
+      <start class="StateNode" reference="11"/>
+      <end class="StateNode" reference="18"/>
+      <startLocation class="Point" id="46">40.0,40.0</startLocation>
+      <endLocation class="Point" id="47">50.0,20.0</endLocation>
+      <transitionPoints id="48"/>
+      <id id="49" value="4c9c38d2-017a-4f7b-bdc9-3a1e7f58e604"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText></labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="50">
+      <start class="StateNode" reference="18"/>
+      <end class="StateNode" reference="23"/>
+      <startLocation class="Point" id="51">30.0,40.0</startLocation>
+      <endLocation class="Point" id="52">50.0,10.0</endLocation>
+      <transitionPoints id="53"/>
+      <id id="54" value="9fad1fa1-a903-474d-80dc-590fa66113a2"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText></labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="55">
+      <start class="StateNode" reference="23"/>
+      <end class="StateNode" reference="28"/>
+      <startLocation class="Point" id="56">30.0,50.0</startLocation>
+      <endLocation class="Point" id="57">50.0,20.0</endLocation>
+      <transitionPoints id="58"/>
+      <id id="59" value="422e739d-0440-4fda-901c-2b84c2bfb093"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText></labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="60">
+      <start class="StateNode" reference="28"/>
+      <end class="CircularFinalStateNode" reference="33"/>
+      <startLocation class="Point" id="61">40.0,50.0</startLocation>
+      <endLocation class="Point" id="62">10.0,10.0</endLocation>
+      <transitionPoints id="63"/>
+      <id id="64" value="768467a7-a5d9-4071-97be-5e77b12d9f86"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText></labelText>
+    </StateTransitionEdge>
+  </edges>
+</StateDiagramGraph>]]></SCRIPT>
+	<BR />
+	<BR />
+	<IMG alt="embedded diagram image" src="data:image/png;base64,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" />
+</BODY>
+</HTML>
